@@ -1,0 +1,15 @@
+spring:
+  rabbit:
+    multiconnections:
+      - connectId: 1
+        connectName: rabbitOne
+        hostName: localhost
+        port: 5672
+        username: guest
+        password: guest
+      - connectId: 2
+        connectName: rabbitTwo
+        hostName: localhost
+        port: 5672
+        username: guest
+        password: guest
